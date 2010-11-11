@@ -1,3 +1,9 @@
+pysolr (2.0.13-1sg2) lucid; urgency=low
+
+  * UNRELEASED
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Thu, 11 Nov 2010 00:32:39 +0000
+
 pysolr (2.0.13-1sg0) foss-development; urgency=low
 
   * Simplegeoized.
