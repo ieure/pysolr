@@ -1,0 +1,19 @@
+Source: pysolr
+Section: python
+Priority: extra
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+Uploaders: Ian Eure <ian@simplegeo.com>
+Build-Depends: cdbs,
+ debhelper (>= 7),
+ python,
+ python-setuptools,
+ python-support
+Standards-Version: 3.9.1
+Homepage: http://code.google.com/p/pysolr/
+
+Package: pysolr
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Lightweight Python wrapper for Apache Solr.
+ Pysolr provides an interface that queries the server and returns
+ results based on the query.
